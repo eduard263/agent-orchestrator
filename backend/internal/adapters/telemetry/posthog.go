@@ -242,6 +242,7 @@ var remotePayloadAllowlist = map[string]map[string]struct{}{
 		"harness":           {},
 		"kind":              {},
 		"github_actor":      {},
+		"spawn_source":      {},
 	},
 	"ao.session.waiting_input_entered": {
 		"state": {},
