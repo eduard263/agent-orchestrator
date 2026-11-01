@@ -17151,6 +17151,9 @@ components:
           type:
           - "null"
           - string
+        issueId:
+          maxLength: 512
+          type: string
         mode:
           enum:
           - tui
@@ -21708,6 +21711,8 @@ components:
       type: object
     TaskSuggestionView:
       properties:
+        issueId:
+          type: string
         issueNumber:
           type: integer
         line:
